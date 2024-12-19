@@ -4,7 +4,7 @@
 #include <limits.h>
 #include <stddef.h> 
 
-int find_last_min_index(int A[], size_t n) {
+int task1(int A[], size_t n) {
 
     int min_val = INT_MAX;
     int min_index = -1;
