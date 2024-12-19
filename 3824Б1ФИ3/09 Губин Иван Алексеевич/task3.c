@@ -34,11 +34,3 @@ char* task3(char* s, unsigned N) {
 
     return ss;
 }
-
-int main() {
-    char s[] = "abcd";
-    unsigned N = 5;
-    char* result = task3(s, N);
-    printf("Result: %s\n", result);
-    return 0;
-}
