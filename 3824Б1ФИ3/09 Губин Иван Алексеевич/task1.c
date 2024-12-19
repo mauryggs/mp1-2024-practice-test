@@ -12,7 +12,7 @@ int find_last_min_index(int A[], size_t n) {
     for (size_t i = 0; i < n; i++) {
         if (A[i] <= min_val) {
             min_val = A[i];
-            min_index = (int)i; // Приведение типа к int, так как возвращаем int
+            min_index = (int)i;
         }
     }
 
